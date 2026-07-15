@@ -90,6 +90,8 @@ function LoginPage() {
 
         setErrorMessage("");
 
+        localStorage.setItem("user", JSON.stringify(result.user));
+
         navigate("/home");
 
     };
@@ -139,7 +141,6 @@ function LoginPage() {
                             </p>
                         )
                     }
-
 
 
                     {!isLogin && (

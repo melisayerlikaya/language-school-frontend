@@ -325,3 +325,17 @@ label {
     margin-bottom: 20px;
 
 }
+
+.input-box input {
+    flex: 1;
+    min-width: 0;
+}
+
+.input-box span {
+    pointer-events: none;
+}
+
+.input-box input {
+    color: #000;
+    caret-color: #000;
+}
